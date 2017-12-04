@@ -1,0 +1,28 @@
+.simply-sidebar{
+    border: 1px solid;
+    height: 700px;
+    width: 30%;
+    float: right;
+}
+.simply-content{
+    border: 1px solid;
+    width: 70%;
+    height: 600px;
+    float: left;
+}
+.simply-input{
+    position: inherit;
+    border: 1px solid;
+    width: 70%;
+    height: 100px;
+    float: left;
+}
+.simply-editor-area{
+    resize: none;
+    height: 70px;
+    width: 100%;
+}
+.simply-col-size{
+    padding: 0px;
+    margin-top: 27px;
+}
