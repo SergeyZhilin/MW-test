@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8577909-3e72-499c-8de0-a8950f19a488" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common/models/LoginForm.php" afterPath="$PROJECT_DIR$/common/models/LoginForm.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/controllers/MessageController.php" afterPath="$PROJECT_DIR$/frontend/controllers/MessageController.php" />
+      <change beforePath="$PROJECT_DIR$/common/models/MessageForm.php" afterPath="$PROJECT_DIR$/common/models/MessageForm.php" />
       <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/MessageForm.php" afterPath="$PROJECT_DIR$/common/models/MessageForm.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/site/chat.php" afterPath="$PROJECT_DIR$/frontend/views/site/chat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,10 +64,10 @@
       <file leaf-file-name="MessageForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/models/MessageForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
-                <element signature="e#33#41#0#PHP" expanded="true" />
+                <element signature="e#33#52#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +76,8 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="556">
+              <caret line="142" column="57" lean-forward="false" selection-start-line="142" selection-start-column="57" selection-end-line="142" selection-end-column="57" />
               <folding>
                 <element signature="e#39#69#0#PHP" expanded="true" />
               </folding>
@@ -91,6 +88,9 @@
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>save</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -237,6 +237,17 @@
               <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,7 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512394614375</updated>
       <workItem from="1512394615972" duration="12225000" />
-      <workItem from="1512458918559" duration="16613000" />
+      <workItem from="1512458918559" duration="17953000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1512467366929</created>
@@ -296,11 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512468909203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add model, controller for message">
+      <created>1512475729565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512475729565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28838000" />
+    <option name="totallyTimeSpent" value="30178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="0" width="1920" height="1044" extended-state="6" />
@@ -540,18 +558,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/models/MessageForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="185">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="e#33#41#0#PHP" expanded="true" />
+            <element signature="e#33#52#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="556">
+          <caret line="142" column="57" lean-forward="false" selection-start-line="142" selection-start-column="57" selection-end-line="142" selection-end-column="57" />
           <folding>
             <element signature="e#39#69#0#PHP" expanded="true" />
           </folding>

@@ -2,8 +2,8 @@
 
 namespace common\models;
 
-use Yii;
 use yii\base\Model;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "message".
@@ -12,7 +12,7 @@ use yii\base\Model;
  * @property integer $user_id
  * @property string $message
  */
-class MessageForm extends Model
+class MessageForm extends ActiveRecord
 {
     public $user_id;
     public $message;
@@ -47,8 +47,5 @@ class MessageForm extends Model
             'user_id' => 'User ID',
             'message' => 'Message',
         ];
-    }
-    public function save(){
-
     }
 }
