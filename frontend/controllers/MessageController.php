@@ -13,7 +13,7 @@ class MessageController extends SiteController
 
     public function actionIndex()
     {
-        return $this->render('chat');
+        return $this->render('chat', compact('form_model'));
     }
 
 }

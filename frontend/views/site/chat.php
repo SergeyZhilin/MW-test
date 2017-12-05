@@ -9,6 +9,11 @@ use common\models\User;
 
 $this->title = 'Chat';
 $this->params['breadcrumbs'][] = $this->title;
+
+if(Yii::$app->user->isGuest) {
+
+    return Yii::$app->response->redirect('login');
+}
 ?>
 
 <div class="site-chat">
