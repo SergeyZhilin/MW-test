@@ -1,10 +1,10 @@
 <?php
 
 /* @var $this yii\web\View */
-/* @var $form_model \frontend\models\MessageForm */
+/* @var $form_model \common\models\MessageForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+use yii\widgets\ActiveForm;
 use common\models\User;
 
 $this->title = 'Chat';
@@ -32,9 +32,9 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="simply-input">
         <div class="col-lg-12 simply-col-size">
-            <form>
+
             <div class="input-group">
-                <?php $form = ActiveForm::begin() ?>
+                <?php $form = ActiveForm::begin(['id' => 'message-form', 'options' => ['class' => 'form-control']]) ?>
                 <?= $form->field($form_model, 'message') ?>
                 <?= Html::submitButton('Send', ['class' => 'btn btn-success']) ?>
                 <?php ActiveForm::end() ?>
@@ -43,8 +43,9 @@ $this->params['breadcrumbs'][] = $this->title;
                         <input class="btn btn-info" type="submit" value="Go!">
                     </span>
             </div>
-            </form>
+
         </div>
         <td id="simply-word-count">Количество символов: <span class="word-count"></span></td>
     </div>
 </div>
+

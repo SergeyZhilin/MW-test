@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\models;
+namespace common\models;
 
 use Yii;
 use yii\base\Model;
@@ -47,5 +47,8 @@ class MessageForm extends Model
             'user_id' => 'User ID',
             'message' => 'Message',
         ];
+    }
+    public function save(){
+
     }
 }

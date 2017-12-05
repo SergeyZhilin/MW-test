@@ -1,6 +1,8 @@
 <?php
 namespace frontend\controllers;
 
+use common\models\MessageForm;
+use common\models\User;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -138,7 +140,8 @@ class SiteController extends Controller
      */
     public function actionChat()
     {
-        return $this->render('chat');
+
+        return $this->render('chat', compact('form_model'));
     }
 
     /**
