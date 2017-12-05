@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this yii\web\View */
-/* @var $form_model \common\models\MessageForm */
+/* @var $form_model common\models\MessageForm */
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
     $users = User::find()->orderBy('username')->all();
     echo "<ul class=\"list-group\">";
     foreach ($users as $user){
-        echo "<li class=\"list-group-item\" style='color: $user->color'>" . $user->username . "</li>";
+        echo "<li class=\"list-group-item\" style='color: $user->color'><span class='simply-online'>&#9679;</span>" . $user->username . "</li>";
     }
     echo "</ul>";
 ?>
@@ -33,19 +33,14 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="simply-input">
         <div class="col-lg-12 simply-col-size">
 
-            <div class="input-group">
                 <?php $form = ActiveForm::begin(['id' => 'message-form', 'options' => ['class' => 'form-control']]) ?>
-                <?= $form->field($form_model, 'message') ?>
+                <?= $form->field($form_model, 'message')->textInput(['maxlength' => '200', 'id' => 'content', 'class' => 'form-control']) ?>
+                <?= $form->field($form_model, 'user_id')->hiddenInput(['value' => Yii::$app->user->id]) ?>
                 <?= Html::submitButton('Send', ['class' => 'btn btn-success']) ?>
                 <?php ActiveForm::end() ?>
-                    <input type="text" class="form-control" name="content" id="content"  placeholder="Insert message..." aria-label="Insert message...">
-                    <span class="input-group-btn">
-                        <input class="btn btn-info" type="submit" value="Go!">
-                    </span>
-            </div>
 
         </div>
-        <td id="simply-word-count">Количество символов: <span class="word-count"></span></td>
+<!--        <td id="simply-word-count">Количество символов: <span class="word-count"></span></td>-->
     </div>
 </div>
 

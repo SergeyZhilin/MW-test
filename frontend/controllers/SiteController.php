@@ -140,9 +140,9 @@ class SiteController extends Controller
     public function actionChat()
     {
         $form_model = new MessageForm();
+
         if ($form_model->load(Yii::$app->request->post())) {
-            $form_model->user_id = Yii::$app->user->id;
-            $form_model->message = $_POST['MessageForm']['message'];
+
             $form_model->save();
         }
         return $this->render('chat', compact('form_model'));

@@ -2,7 +2,7 @@
 
 namespace common\models;
 
-use yii\base\Model;
+use Yii;
 use yii\db\ActiveRecord;
 
 /**
@@ -14,8 +14,6 @@ use yii\db\ActiveRecord;
  */
 class MessageForm extends ActiveRecord
 {
-    public $user_id;
-    public $message;
 
     /**
      * @inheritdoc

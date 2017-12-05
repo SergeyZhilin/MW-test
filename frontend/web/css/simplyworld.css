@@ -24,5 +24,11 @@
 }
 .simply-col-size{
     padding: 0px;
-    margin-top: 27px;
+    /*margin-top: 27px;*/
+}
+#message-form{
+    border: none;
+}
+#message-form label{
+    display: none;
 }

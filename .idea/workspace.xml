@@ -4,7 +4,10 @@
     <list default="true" id="b8577909-3e72-499c-8de0-a8950f19a488" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/common/models/MessageForm.php" afterPath="$PROJECT_DIR$/common/models/MessageForm.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/AppAsset.php" afterPath="$PROJECT_DIR$/frontend/assets/AppAsset.php" />
       <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/site/chat.php" afterPath="$PROJECT_DIR$/frontend/views/site/chat.php" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/css/simplyworld.css" afterPath="$PROJECT_DIR$/frontend/web/css/simplyworld.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,49 +41,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+            <state relative-caret-position="578">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <element signature="e#88#109#0#PHP" expanded="true" />
-                <marker date="1512475096585" expanded="true" signature="475:482" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="475:494" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="495:579" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="609:1053" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="641:1042" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="1084:1926" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="1132:1821" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="1134:1157" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="1134:1807" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="1171:1805" ph="..." />
-                <marker date="1512475096585" expanded="true" signature="1679:1786" ph="..." />
+                <element signature="e#87#108#0#PHP" expanded="true" />
+                <marker date="1512484299408" expanded="true" signature="474:481" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="474:493" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="494:620" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="523:530" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="650:1094" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="682:1083" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="1125:1794" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="1173:1682" ph="..." />
+                <marker date="1512484299408" expanded="true" signature="1192:1667" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/MessageForm.php">
+      <file leaf-file-name="simplyworld.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/web/js/simplyworld.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#33#52#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="142" column="57" lean-forward="false" selection-start-line="142" selection-start-column="57" selection-end-line="142" selection-end-column="57" />
-              <folding>
-                <element signature="e#39#69#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,10 +77,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>save</find>
+      <find>Количество</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,8 +93,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/common/config/main-local.php" />
-        <option value="$PROJECT_DIR$/frontend/assets/AppAsset.php" />
-        <option value="$PROJECT_DIR$/frontend/web/css/simplyworld.css" />
         <option value="$PROJECT_DIR$/frontend/web/js/simplyworld.js" />
         <option value="$PROJECT_DIR$/frontend/views/site/login.php" />
         <option value="$PROJECT_DIR$/frontend/views/site/signup.php" />
@@ -113,9 +102,11 @@
         <option value="$PROJECT_DIR$/frontend/controllers/MessageController.php" />
         <option value="$PROJECT_DIR$/frontend/models/MessageForm.php" />
         <option value="$PROJECT_DIR$/common/models/LoginForm.php" />
-        <option value="$PROJECT_DIR$/frontend/views/site/chat.php" />
+        <option value="$PROJECT_DIR$/frontend/web/css/simplyworld.css" />
         <option value="$PROJECT_DIR$/common/models/MessageForm.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/frontend/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/frontend/views/site/chat.php" />
       </list>
     </option>
   </component>
@@ -248,6 +239,37 @@
               <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +313,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512394614375</updated>
       <workItem from="1512394615972" duration="12225000" />
-      <workItem from="1512458918559" duration="17953000" />
+      <workItem from="1512458918559" duration="24789000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1512467366929</created>
@@ -314,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512475729565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="F**ng message">
+      <created>1512477084245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512477084245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30178000" />
+    <option name="totallyTimeSpent" value="37014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="0" width="1920" height="1044" extended-state="6" />
@@ -326,8 +355,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -339,7 +369,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -354,7 +383,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="2nd commit" />
     <MESSAGE value="add model, controller for message" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model, controller for message" />
+    <MESSAGE value="F**ng message" />
+    <option name="LAST_COMMIT_MESSAGE" value="F**ng message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -403,28 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/web/css/simplyworld.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/AppAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/web/js/simplyworld.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -448,14 +456,6 @@
           <folding>
             <element signature="e#126#147#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="338" column="20" lean-forward="false" selection-start-line="338" selection-start-column="20" selection-end-line="338" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,10 +519,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="338" column="20" lean-forward="false" selection-start-line="338" selection-start-column="20" selection-end-line="338" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/js/countsymbol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/css/simplyworld.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/console/controllers/SocketController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#69#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/js/simplyworld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -535,43 +593,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
-          <folding>
-            <element signature="e#88#109#0#PHP" expanded="true" />
-            <marker date="1512475096585" expanded="true" signature="475:482" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="475:494" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="495:579" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="609:1053" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="641:1042" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="1084:1926" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="1132:1821" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="1134:1157" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="1134:1807" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="1171:1805" ph="..." />
-            <marker date="1512475096585" expanded="true" signature="1679:1786" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/MessageForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="202">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="142" column="57" lean-forward="false" selection-start-line="142" selection-start-column="57" selection-end-line="142" selection-end-column="57" />
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#39#69#0#PHP" expanded="true" />
+            <element signature="e#87#108#0#PHP" expanded="true" />
+            <marker date="1512484299408" expanded="true" signature="474:481" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="474:493" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="494:620" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="523:530" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="650:1094" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="682:1083" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="1125:1794" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="1173:1682" ph="..." />
+            <marker date="1512484299408" expanded="true" signature="1192:1667" ph="..." />
           </folding>
         </state>
       </provider>

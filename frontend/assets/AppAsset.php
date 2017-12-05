@@ -16,8 +16,8 @@ class AppAsset extends AssetBundle
         'css/simplyworld.css',
     ];
     public $js = [
-        'js/countsymbol.js',
-        'js/angular.min.js',
+//        'js/countsymbol.js',
+//        'js/angular.min.js',
         'js/simplyworld.js',
     ];
     public $depends = [
