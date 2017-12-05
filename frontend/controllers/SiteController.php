@@ -80,21 +80,41 @@ class SiteController extends Controller
      *
      * @return mixed
      */
+//    public function actionLogin()
+//    {
+//        if (!Yii::$app->user->isGuest) {
+//            return $this->goHome();
+//        }
+//
+//        $model = new LoginForm();
+//        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+//            return $this->render('chat');
+//        } else {
+//            return $this->render('login', [
+//                'model' => $model,
+//            ]);
+//        }
+//    }
     public function actionLogin()
     {
-        if (!Yii::$app->user->isGuest) {
+        if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
 
         $model = new LoginForm();
+        $modelSignup = new SignupForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->render('chat');
-        } else {
+        }elseif ($user = $modelSignup->signup()) {
+                if (Yii::$app->getUser()->login($user)) {
+                    return $this->render('chat');
+                }
+            }
             return $this->render('login', [
                 'model' => $model,
+                'modelSignup' => $modelSignup,
             ]);
         }
-    }
 
     /**
      * Logs out the current user.

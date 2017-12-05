@@ -3,6 +3,7 @@ namespace common\models;
 
 use Yii;
 use yii\base\Model;
+use common\models\User;
 
 /**
  * Login form
@@ -11,6 +12,7 @@ class LoginForm extends Model
 {
     public $username;
     public $password;
+    public $color;
     public $rememberMe = true;
 
     private $_user;
@@ -24,6 +26,7 @@ class LoginForm extends Model
         return [
             // username and password are both required
             [['username', 'password'], 'required'],
+            ['username', 'string', 'min' => 3, 'max' => 255],
             // rememberMe must be a boolean value
             ['rememberMe', 'boolean'],
             // password is validated by validatePassword()
@@ -71,8 +74,15 @@ class LoginForm extends Model
     {
         if ($this->_user === null) {
             $this->_user = User::findByUsername($this->username);
+            if (empty($this->_user)){
+                $user = new User();
+                $user->username = $this->username;
+                $user->color = sprintf( '#%02X%02X%02X', rand(0, 255), rand(0, 255), rand(0, 255) );
+                $user->setPassword($this->password);
+                $user->generateAuthKey();
+                return $user->save() ? $user : null;
+            }
         }
-
         return $this->_user;
     }
 }

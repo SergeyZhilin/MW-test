@@ -1,15 +1,27 @@
 <?php
 
 /* @var $this yii\web\View */
+/* @var $model \frontend\models\SignupForm */
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use common\models\User;
 
 $this->title = 'Chat';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
 <div class="site-chat">
-    <div class="simply-sidebar"></div>
+    <div class="simply-sidebar">
+<?php
+    $users = User::find()->orderBy('username')->all();
+    echo "<ul class=\"list-group\">";
+    foreach ($users as $user){
+        echo "<li class=\"list-group-item\" style='color: $user->color'>" . $user->username . "</li>";
+    }
+    echo "</ul>";
+?>
+    </div>
     <div class="simply-content angular-chat">
         <ul class="list-group">
             <li class="list-group-item list-group-item-success">Сообщение 432432</li>

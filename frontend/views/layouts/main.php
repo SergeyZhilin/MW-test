@@ -14,7 +14,7 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html ng-app="MyChatApplication" lang="<?= Yii::$app->language ?>">
+<html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,13 +35,15 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
-    $menuItems = [
-        /* ['label' => 'Home', 'url' => ['/site/index']],*/
-        ['label' => 'Chat', 'url' => ['/site/chat']],
-        /*['label' => 'Contact', 'url' => ['/site/contact']],*/
-    ];
+    if (!Yii::$app->user->isGuest) {
+        $menuItems = [
+            /* ['label' => 'Home', 'url' => ['/site/index']],*/
+            ['label' => 'Chat', 'url' => ['/site/chat']],
+            /*['label' => 'Contact', 'url' => ['/site/contact']],*/
+        ];
+    }
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+        /*$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];*/
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menuItems[] = '<li>'
