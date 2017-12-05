@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this yii\web\View */
-/* @var $model \frontend\models\SignupForm */
+/* @var $form_model \frontend\models\MessageForm */
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
@@ -34,6 +34,10 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-lg-12 simply-col-size">
             <form>
             <div class="input-group">
+                <?php $form = ActiveForm::begin() ?>
+                <?= $form->field($form_model, 'message') ?>
+                <?= Html::submitButton('Send', ['class' => 'btn btn-success']) ?>
+                <?php ActiveForm::end() ?>
                     <input type="text" class="form-control" name="content" id="content"  placeholder="Insert message..." aria-label="Insert message...">
                     <span class="input-group-btn">
                         <input class="btn btn-info" type="submit" value="Go!">

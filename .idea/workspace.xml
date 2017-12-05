@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8577909-3e72-499c-8de0-a8950f19a488" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/controllers/MessageController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/models/MessageForm.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/yii2.iml" afterPath="$PROJECT_DIR$/.idea/yii2.iml" />
-      <change beforePath="$PROJECT_DIR$/common/models/LoginForm.php" afterPath="$PROJECT_DIR$/common/models/LoginForm.php" />
-      <change beforePath="$PROJECT_DIR$/common/models/User.php" afterPath="$PROJECT_DIR$/common/models/User.php" />
       <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/models/SignupForm.php" afterPath="$PROJECT_DIR$/frontend/models/SignupForm.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" />
       <change beforePath="$PROJECT_DIR$/frontend/views/site/chat.php" afterPath="$PROJECT_DIR$/frontend/views/site/chat.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/site/signup.php" afterPath="$PROJECT_DIR$/frontend/views/site/signup.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,25 +20,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
               <folding>
-                <element signature="e#84#105#0#PHP" expanded="true" />
-                <marker date="1512466868505" expanded="true" signature="473:480" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="473:492" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="493:577" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="607:1051" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="639:1040" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="1082:1657" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="1130:1552" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="1149:1173" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="1149:1537" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="1187:1517" ph="..." />
-                <marker date="1512466868505" expanded="true" signature="1391:1498" ph="..." />
+                <element signature="e#90#111#0#PHP" expanded="true" />
+                <marker date="1512468718895" expanded="true" signature="479:486" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="479:498" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="499:583" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="613:1057" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="645:1046" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="1088:1901" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="1136:1796" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="1155:1179" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="1155:1781" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="1193:1761" ph="..." />
+                <marker date="1512468718895" expanded="true" signature="1635:1742" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/models/MessageForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <element signature="e#35#43#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/controllers/MessageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,12 +94,14 @@
         <option value="$PROJECT_DIR$/frontend/web/js/simplyworld.js" />
         <option value="$PROJECT_DIR$/frontend/views/site/login.php" />
         <option value="$PROJECT_DIR$/frontend/views/site/signup.php" />
-        <option value="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/frontend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/common/models/User.php" />
         <option value="$PROJECT_DIR$/frontend/models/SignupForm.php" />
         <option value="$PROJECT_DIR$/common/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/frontend/models/MessageForm.php" />
         <option value="$PROJECT_DIR$/frontend/views/site/chat.php" />
+        <option value="$PROJECT_DIR$/frontend/controllers/MessageController.php" />
       </list>
     </option>
   </component>
@@ -195,6 +223,34 @@
               <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yii2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,17 +289,25 @@
       <option name="presentableId" value="Default" />
       <updated>1512394614375</updated>
       <workItem from="1512394615972" duration="12225000" />
-      <workItem from="1512458918559" duration="8225000" />
+      <workItem from="1512458918559" duration="9774000" />
     </task>
+    <task id="LOCAL-00001" summary="2nd commit">
+      <created>1512467366929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512467366929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20450000" />
+    <option name="totallyTimeSpent" value="21999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="0" width="1920" height="1044" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -268,6 +332,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -362,24 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-597">
-          <caret line="116" column="9" lean-forward="false" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
-          <folding>
-            <element signature="e#39#47#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models/Message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/signup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -398,24 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models/SignupForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#34#53#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1222">
@@ -424,24 +458,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3066">
+          <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/SignupForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="e#34#53#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
           <folding>
-            <element signature="e#84#105#0#PHP" expanded="true" />
-            <marker date="1512466868505" expanded="true" signature="473:480" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="473:492" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="493:577" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="607:1051" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="639:1040" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="1082:1657" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="1130:1552" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="1149:1173" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="1149:1537" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="1187:1517" ph="..." />
-            <marker date="1512466868505" expanded="true" signature="1391:1498" ph="..." />
+            <element signature="e#90#111#0#PHP" expanded="true" />
+            <marker date="1512468718895" expanded="true" signature="479:486" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="479:498" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="499:583" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="613:1057" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="645:1046" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="1088:1901" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="1136:1796" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="1155:1179" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="1155:1781" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="1193:1761" ph="..." />
+            <marker date="1512468718895" expanded="true" signature="1635:1742" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/MessageForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
