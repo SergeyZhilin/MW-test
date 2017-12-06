@@ -72,6 +72,8 @@ class SocketServer implements MessageComponentInterface
         foreach ($this->clients as $client) {
             $client->send(json_encode([
                 'name'   => $from->user->username,
+                'message' => $messages->msg,
+                'color' => $from->user->color,
                 'status' => 'online or offline',
                 'all'    => 'all user',
             ]));

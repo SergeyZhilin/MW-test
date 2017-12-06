@@ -4,7 +4,6 @@
     <list default="true" id="b8577909-3e72-499c-8de0-a8950f19a488" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/console/models/SocketServer.php" afterPath="$PROJECT_DIR$/console/models/SocketServer.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
       <change beforePath="$PROJECT_DIR$/frontend/views/site/chat.php" afterPath="$PROJECT_DIR$/frontend/views/site/chat.php" />
       <change beforePath="$PROJECT_DIR$/frontend/web/js/simplyworld.js" afterPath="$PROJECT_DIR$/frontend/web/js/simplyworld.js" />
     </list>
@@ -23,8 +22,8 @@
       <file leaf-file-name="SocketServer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/models/SocketServer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+            <state relative-caret-position="733">
+              <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
               <folding>
                 <element signature="e#33#63#0#PHP" expanded="true" />
               </folding>
@@ -32,12 +31,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
+      <file leaf-file-name="chat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="273">
+              <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="39" />
+              <folding>
+                <element signature="e#87#108#0#PHP" expanded="true" />
+                <marker date="1512570952482" expanded="true" signature="591:598" ph="..." />
+                <marker date="1512570952482" expanded="true" signature="640:647" ph="..." />
+                <marker date="1512570952482" expanded="true" signature="712:721" ph="..." />
+                <marker date="1512570952482" expanded="true" signature="770:779" ph="..." />
+                <marker date="1512570952482" expanded="true" signature="1189:1196" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,24 +51,11 @@
       <file leaf-file-name="simplyworld.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/web/js/simplyworld.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="544">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
-                <element signature="e#87#108#0#PHP" expanded="true" />
-                <marker date="1512561086362" expanded="true" signature="560:567" ph="..." />
-                <marker date="1512561086362" expanded="true" signature="609:616" ph="..." />
-                <marker date="1512561086362" expanded="true" signature="681:690" ph="..." />
-                <marker date="1512561086362" expanded="true" signature="739:748" ph="..." />
+                <marker date="1512571744114" expanded="true" signature="511:518" ph="..." />
+                <marker date="1512571744114" expanded="true" signature="511:585" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,10 +97,10 @@
         <option value="$PROJECT_DIR$/console/controllers/SocketController.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/frontend/web/css/simplyworld.css" />
-        <option value="$PROJECT_DIR$/frontend/views/site/chat.php" />
-        <option value="$PROJECT_DIR$/frontend/web/js/simplyworld.js" />
         <option value="$PROJECT_DIR$/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/frontend/views/site/chat.php" />
         <option value="$PROJECT_DIR$/console/models/SocketServer.php" />
+        <option value="$PROJECT_DIR$/frontend/web/js/simplyworld.js" />
       </list>
     </option>
   </component>
@@ -297,7 +290,7 @@
       <workItem from="1512394615972" duration="12225000" />
       <workItem from="1512458918559" duration="29192000" />
       <workItem from="1512544682194" duration="10452000" />
-      <workItem from="1512557888506" duration="6924000" />
+      <workItem from="1512557888506" duration="13263000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1512467366929</created>
@@ -362,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512556488325</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="work with socket">
+      <created>1512564817923</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1512564817923</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58793000" />
+    <option name="totallyTimeSpent" value="65132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="0" width="1920" height="1044" extended-state="6" />
@@ -419,7 +419,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#38#66#0#PHP" expanded="true" />
+            <element signature="e#38#66#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -448,10 +448,11 @@
           <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
           <folding>
             <element signature="e#87#108#0#PHP" expanded="true" />
-            <marker date="1512561086362" expanded="true" signature="560:567" ph="..." />
-            <marker date="1512561086362" expanded="true" signature="609:616" ph="..." />
-            <marker date="1512561086362" expanded="true" signature="681:690" ph="..." />
-            <marker date="1512561086362" expanded="true" signature="739:748" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="591:598" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="640:647" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="712:721" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="770:779" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="1189:1196" ph="..." />
           </folding>
         </state>
       </provider>
@@ -460,7 +461,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
+          <folding>
+            <marker date="1512571744114" expanded="true" signature="511:518" ph="..." />
+            <marker date="1512571744114" expanded="true" signature="511:585" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,6 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,6 +660,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/console/controllers/SocketController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#66#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -665,32 +680,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="273">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="e#87#108#0#PHP" expanded="true" />
-            <marker date="1512561086362" expanded="true" signature="560:567" ph="..." />
-            <marker date="1512561086362" expanded="true" signature="609:616" ph="..." />
-            <marker date="1512561086362" expanded="true" signature="681:690" ph="..." />
-            <marker date="1512561086362" expanded="true" signature="739:748" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/controllers/SocketController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#38#66#0#PHP" expanded="true" />
+            <marker date="1512570952482" expanded="true" signature="591:598" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="640:647" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="712:721" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="770:779" ph="..." />
+            <marker date="1512570952482" expanded="true" signature="1189:1196" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/models/SocketServer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        <state relative-caret-position="733">
+          <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
           <folding>
             <element signature="e#33#63#0#PHP" expanded="true" />
           </folding>
@@ -699,9 +705,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/web/js/simplyworld.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="544">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <marker date="1512571744114" expanded="true" signature="511:518" ph="..." />
+            <marker date="1512571744114" expanded="true" signature="511:585" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

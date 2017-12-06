@@ -6,6 +6,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use common\models\User;
+use common\models\MessageForm;
 
 $this->title = 'Chat';
 $this->params['breadcrumbs'][] = $this->title;
@@ -28,11 +29,18 @@ if(Yii::$app->user->isGuest) {
 ?>
     </div>
     <div class="simply-content angular-chat">
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success">Сообщение 432432</li>
-            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
-            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
-            <li class="list-group-item list-group-item-info">This is a info list group item</li>
+        <ul class="list-group simplymsg">
+            <?php
+                $messages = MessageForm::find()->all();
+                foreach ($messages as $message) {
+                    $user = User::findIdentity($message->user_id);
+                    echo "<li class=\"list-group-item\"><span style='color: $user->color'>$user->username : </span>$message->message</li>";
+                }
+            ?>
+<!--            <li class="list-group-item list-group-item-success">Сообщение 432432</li>-->
+<!--            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>-->
+<!--            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>-->
+<!--            <li class="list-group-item list-group-item-info">This is a info list group item</li>-->
         </ul>
     </div>
     <div class="simply-input">
