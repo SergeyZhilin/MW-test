@@ -7,12 +7,11 @@ socket.onmessage = function(e) {
 
     var data = JSON.parse(e.data);
     $(".list-group.simplymsg").last().append(
-        '<li class=\"list-group-item\"><span style="color: ' + data.color + '">'+data.name+' : </span>'+ data.message + '</li>'
+        '<li class=\"list-group-item simply-chat\"><span style="color: ' + data.color + '">'+data.name+' : </span>'+ data.message + '</li>'
     );
     // $("div.simply-content ul").append(
     //     '<li class=\"list-group-item\"><span>'+data.name+' : </span>'+ data.message + '</li>'
     // );
-    $(input).val('');
     console.log(data);
 };
 
@@ -30,5 +29,5 @@ $('#simplysend').on('click', function(e){
         userAuthKey: userId
     };
     socket.send(JSON.stringify(msg));
-    input ='';
+    $('#content').val('');
 });

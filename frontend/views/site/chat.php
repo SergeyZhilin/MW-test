@@ -23,7 +23,7 @@ if(Yii::$app->user->isGuest) {
     $users = User::find()->orderBy('username')->all();
     echo "<ul class=\"list-group\">";
     foreach ($users as $user){
-        echo "<li class=\"list-group-item\" style='color: $user->color'><span class='simply-online'>&#9675; </span>" . $user->username . "<span class='simply-mute'><button>&#128276;</button></span><span class='simply-ban'><button>&#128275;</button></span></li>";
+        echo "<li class=\"list-group-item\" style='color: $user->color'><span class='simply-online'>&#9675; </span>" . $user->username . "<span class='simply-mute'><button class='mute'>&#128276;</button></span><span class='simply-ban'><button class='ban'>&#128275;</button></span></li>";
     }
     echo "</ul>";
 ?>
@@ -34,13 +34,9 @@ if(Yii::$app->user->isGuest) {
                 $messages = MessageForm::find()->all();
                 foreach ($messages as $message) {
                     $user = User::findIdentity($message->user_id);
-                    echo "<li class=\"list-group-item\"><span style='color: $user->color'>$user->username : </span>$message->message</li>";
+                    echo "<li class=\"list-group-item simply-chat\"><span style='color: $user->color'>$user->username : </span>$message->message</li>";
                 }
             ?>
-<!--            <li class="list-group-item list-group-item-success">Сообщение 432432</li>-->
-<!--            <li class="list-group-item list-group-item-danger">This is a danger list group item</li>-->
-<!--            <li class="list-group-item list-group-item-warning">This is a warning list group item</li>-->
-<!--            <li class="list-group-item list-group-item-info">This is a info list group item</li>-->
         </ul>
     </div>
     <div class="simply-input">
