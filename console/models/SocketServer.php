@@ -1,6 +1,8 @@
 <?php
 
 namespace console\models;
+use common\models\MessageForm;
+use common\models\User;
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
@@ -47,6 +49,12 @@ class SocketServer implements MessageComponentInterface
     }
 
     public function onOpen(ConnectionInterface $conn) {
+        $token = $conn->httpRequest->getUri()->getQuery();
+
+        $user = User::findOne(['auth_key' => $token]);
+        $conn->user = $user;
+        $allUser =  User::find()->orderBy('username')->all();
+
         //get query string
         //get
         // Store the new connection to send messages to later
@@ -59,15 +67,19 @@ class SocketServer implements MessageComponentInterface
         echo sprintf('Connection %d sending message "%s" to %d other connection%s' . "\n"
             , $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');
 
-        foreach ($this->clients as $client) {
+        $messages = json_decode($msg);
 
+        foreach ($this->clients as $client) {
             $client->send(json_encode([
-                //'id'     => $user->id,
-                'name'   => 'user name',
+                'name'   => $from->user->username,
                 'status' => 'online or offline',
                 'all'    => 'all user',
             ]));
         }
+        $msg_chat = new MessageForm();
+        $msg_chat->user_id = $from->user->id;
+        $msg_chat->message = $messages->msg;
+        $msg_chat->save();
     }
 
     public function onClose(ConnectionInterface $conn) {

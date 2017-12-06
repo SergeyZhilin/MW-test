@@ -37,10 +37,13 @@ if(Yii::$app->user->isGuest) {
     </div>
     <div class="simply-input">
         <div class="col-lg-12 simply-col-size">
-
+            <?php
+            $currentUserId = Yii::$app->user->id;
+            $currentUser = User::findIdentity($currentUserId);
+            ?>
                 <?php $form = ActiveForm::begin(['id' => 'message-form', 'options' => ['class' => 'form-control']]) ?>
                 <?= $form->field($form_model, 'message')->textInput(['maxlength' => '200', 'id' => 'content', 'class' => 'form-control']) ?>
-                <?= $form->field($form_model, 'user_id')->hiddenInput(['value' => $user->authKey]) ?>
+                <?= $form->field($form_model, 'user_id')->hiddenInput(['value' => $currentUser->auth_key]) ?>
                 <?= Html::submitButton('Send', ['class' => 'btn btn-success', 'id' => 'simplysend']) ?>
                 <?php ActiveForm::end() ?>
 
@@ -49,4 +52,6 @@ if(Yii::$app->user->isGuest) {
     </div>
 </div>
 
-
+<script>
+    var AuthKey = '<?= $currentUser->auth_key; ?>';
+</script>
