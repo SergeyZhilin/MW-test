@@ -89,7 +89,7 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->render('chat', compact('form_model'));
+            return $this->redirect('chat');
         } else {
             return $this->render('login', [
                 'model' => $model,
@@ -143,9 +143,12 @@ class SiteController extends Controller
 
         if ($form_model->load(Yii::$app->request->post())) {
 
-            $form_model->save();
+            if ($form_model->save()){
+                return $this->redirect('chat');
+            };
+
         }
-        return $this->render('chat', compact('form_model'));
+        return $this->render('chat', ['form_model'=>$form_model]);
     }
 
     /**
@@ -159,7 +162,8 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user = $model->signup()) {
                 if (Yii::$app->getUser()->login($user)) {
-                    return $this->render('chat', compact('form_model'));
+                    return $this->redirect('chat');
+//                    return $this->render('chat', compact('form_model'));
                 }
             }
         }
