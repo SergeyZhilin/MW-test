@@ -32,3 +32,23 @@
 #message-form label{
     display: none;
 }
+.simply-mute{
+    float: right;
+}
+.simply-ban{
+    float: right;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 424px)  {
+    .simply-sidebar{
+        height: auto;
+        width: 100%;
+    }
+    .simply-content{
+        width: 100%;
+    }
+    .simply-input{
+        width: 100%;
+    }
+}

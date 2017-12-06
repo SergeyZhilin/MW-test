@@ -22,7 +22,7 @@ if(Yii::$app->user->isGuest) {
     $users = User::find()->orderBy('username')->all();
     echo "<ul class=\"list-group\">";
     foreach ($users as $user){
-        echo "<li class=\"list-group-item\" style='color: $user->color'><span class='simply-online'>&#9679;</span>" . $user->username . "</li>";
+        echo "<li class=\"list-group-item\" style='color: $user->color'><span class='simply-online'>&#9675; </span>" . $user->username . "<span class='simply-mute'><button>&#128276;</button></span><span class='simply-ban'><button>&#128275;</button></span></li>";
     }
     echo "</ul>";
 ?>
@@ -40,12 +40,13 @@ if(Yii::$app->user->isGuest) {
 
                 <?php $form = ActiveForm::begin(['id' => 'message-form', 'options' => ['class' => 'form-control']]) ?>
                 <?= $form->field($form_model, 'message')->textInput(['maxlength' => '200', 'id' => 'content', 'class' => 'form-control']) ?>
-                <?= $form->field($form_model, 'user_id')->hiddenInput(['value' => Yii::$app->user->id]) ?>
-                <?= Html::submitButton('Send', ['class' => 'btn btn-success']) ?>
+                <?= $form->field($form_model, 'user_id')->hiddenInput(['value' => $user->authKey]) ?>
+                <?= Html::submitButton('Send', ['class' => 'btn btn-success', 'id' => 'simplysend']) ?>
                 <?php ActiveForm::end() ?>
 
         </div>
 <!--        <td id="simply-word-count">Количество символов: <span class="word-count"></span></td>-->
     </div>
 </div>
+
 

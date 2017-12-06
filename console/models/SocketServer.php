@@ -47,9 +47,10 @@ class SocketServer implements MessageComponentInterface
     }
 
     public function onOpen(ConnectionInterface $conn) {
+        //get query string
+        //get
         // Store the new connection to send messages to later
         $this->clients->attach($conn);
-
         echo "New connection! ({$conn->resourceId})\n";
     }
 
@@ -59,10 +60,13 @@ class SocketServer implements MessageComponentInterface
             , $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');
 
         foreach ($this->clients as $client) {
-            if ($from !== $client) {
-                // The sender is not the receiver, send to each client connected
-                $client->send($msg);
-            }
+
+            $client->send(json_encode([
+                //'id'     => $user->id,
+                'name'   => 'user name',
+                'status' => 'online or offline',
+                'all'    => 'all user',
+            ]));
         }
     }
 

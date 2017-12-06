@@ -141,14 +141,24 @@ class SiteController extends Controller
     {
         $form_model = new MessageForm();
 
-        if ($form_model->load(Yii::$app->request->post())) {
-
+        if(\Yii::$app->request->isAjax){
+            return 'Запрос принят!';
+        }
+        if($form_model->load(\Yii::$app->request->post())){
             if ($form_model->save()){
                 return $this->redirect('chat');
             };
-
         }
-        return $this->render('chat', ['form_model'=>$form_model]);
+        return $this->render('chat', compact('form_model'));
+
+//        if ($form_model->load(Yii::$app->request->post())) {
+//
+//            if ($form_model->save()){
+//                return $this->redirect('chat');
+//            };
+//
+//        }
+//        return $this->render('chat', ['form_model'=>$form_model]);
     }
 
     /**
