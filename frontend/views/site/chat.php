@@ -21,9 +21,9 @@ if(Yii::$app->user->isGuest) {
     <div class="simply-sidebar">
 <?php
     $users = User::find()->orderBy('username')->all();
-    echo "<ul class=\"list-group\">";
+    echo "<ul class=\"list-group simplyUser\">";
     foreach ($users as $user){
-        echo "<li class=\"list-group-item\" style='color: $user->color'><span class='simply-online'>&#9675; </span>" . $user->username . "<span class='simply-mute'><button class='mute'>&#128276;</button></span><span class='simply-ban'><button class='ban'>&#128275;</button></span></li>";
+        echo "<li class=\"list-group-item\" style='color: $user->color'>" . $user->username . "<span class='simply-mute'><button class='mute'>&#128276;</button></span><span class='simply-ban'><button class='ban'>&#128275;</button></span></li>";
     }
     echo "</ul>";
 ?>
@@ -58,4 +58,6 @@ if(Yii::$app->user->isGuest) {
 
 <script>
     var AuthKey = '<?= $currentUser->auth_key; ?>';
+    var UserName = '<?= $currentUser->username; ?>';
+    var UserColor = '<?= $currentUser->color; ?>';
 </script>
