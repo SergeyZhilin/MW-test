@@ -20,10 +20,16 @@ if(Yii::$app->user->isGuest) {
 <div class="site-chat">
     <div class="simply-sidebar">
 <?php
-    $users = User::find()->orderBy('username')->all();
+    $users = User::find()
+        ->where(['online_status' => 'on'])
+        ->orderBy('username')
+        ->all();
     echo "<ul class=\"list-group simplyUser\">";
     foreach ($users as $user){
-        echo "<li class=\"list-group-item\" style='color: $user->color'>" . $user->username . "<span class='simply-mute'><button class='mute'>&#128276;</button></span><span class='simply-ban'><button class='ban'>&#128275;</button></span></li>";
+        echo "<li class=\"list-group-item\" id='$user->id' style='color: $user->color'>" . $user->username . "
+                <span class='simply-mute'><button id='mute$user->id'>&#128276;</button></span>
+                <span class='simply-ban'><button id='ban$user->id'>&#128275;</button></span>
+              </li>";
     }
     echo "</ul>";
 ?>
