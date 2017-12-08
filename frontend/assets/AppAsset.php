@@ -18,10 +18,14 @@ class AppAsset extends AssetBundle
     public $js = [
 //        'js/countsymbol.js',
 //        'js/angular.min.js',
-        'js/simplyworld.js',
+//        'js/simplyworld.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+    ];
+
+    public $jsOptions = [
+        'position' => \yii\web\View::POS_HEAD
     ];
 }

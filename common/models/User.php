@@ -187,4 +187,16 @@ class User extends ActiveRecord implements IdentityInterface
     {
         $this->password_reset_token = null;
     }
+
+    public function getIsAdmin(){
+        return $this->role === '@admin';
+    }
+
+    public function getIsMutted(){
+        return $this->mute === 0;
+    }
+
+    public function getIsBanned(){
+        return $this->ban === 0;
+    }
 }

@@ -14,10 +14,13 @@ socket.onmessage = function(e) {
     switch (data.type){
         case 'new':
             $(".list-group.simplyUser").last().append(
+                data.role == 'user' ?
                 '<li class=\"list-group-item\" id="'+data.id+'" style="color: ' + data.color+ '"><span>' + data.name + '</span>' +
                 '<span class=\'simply-mute\'><button id="mute'+ data.id +'">&#128276;</button></span><span class=\'simply-ban\'>' +
-                '<button id="ban' + data.id + '">&#128275;</button></span></li></li>'
+                '<button id="ban' + data.id + '">&#128275;</button></span></li></li>' :
+                    '<li class=\"list-group-item\" id="'+data.id+'" style="color: ' + data.color+ '"><span>' + data.name + '</span>'
             );
+            // data.mute == 1 ? socket.close() : '';
             console.log('new user in chat: ' + data.name);
             break;
 
@@ -27,6 +30,7 @@ socket.onmessage = function(e) {
             break;
 
         case 'message':
+            data.ban == 1 ? onclose() : '';
             console.log('message: '+data.msg);
             break;
     }
@@ -39,9 +43,11 @@ socket.onmessage = function(e) {
             banned:  $(this).attr('banned'),
             user: data.name,
             id: data.id,
+            connid: data.connid,
             msg: '<li class="list-group-item list-group-item-danger simply-chat">'+ data.name + ' : Was Banned!</li>',
         };
         socket.send(JSON.stringify(msg));
+
         // console.log($(this).attr('banned'));
     });
 
@@ -53,6 +59,7 @@ socket.onmessage = function(e) {
             mutted:  $(this).attr('mutted'),
             user: data.name,
             id: data.id,
+            connid: data.connid,
             msg: '<li class="list-group-item list-group-item-warning simply-chat">'+ data.name + ' : Was Mutted!</li>',
         };
         socket.send(JSON.stringify(msg));
@@ -66,6 +73,7 @@ socket.onmessage = function(e) {
     //     '<li class=\"list-group-item\"><span>'+data.name+' : </span>'+ data.message + '</li>'
     // );
     console.log(data);
+
 
 };
 
